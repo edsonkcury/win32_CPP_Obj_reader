@@ -4,9 +4,10 @@
 
 
 
-
-
-
+//_vb: nome do buffer
+//_numTriangles: num de faces tris
+//_pFunc: usando um ponteiro para uma funcao para que a alocacao de memoria local seja liberada dentro do processo
+//e carregada dentro do buffer opengl
 bool Obj::ExtractDataToOpenGLBuffer(	unsigned int *_vb,int *_numTriangles,ptrGLFn_GenBuffer _pFunc	)
 {
 
